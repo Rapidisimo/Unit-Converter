@@ -1,0 +1,72 @@
+* { margin: 0;}
+
+body {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: rgb(28, 28, 28);
+    color: #FFF;
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: white;
+    margin: 1.2rem 0 1.4rem 0;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #CCC1FF;
+}
+
+p {
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+.wrapper {
+    max-width: 550px;
+    margin: 50vh auto;
+    display: grid;
+    background-color: #1F2937;
+}
+
+header {
+    background-color: #6943FF;
+    padding: 1rem;
+}
+
+header,
+.units {
+    text-align: center;
+}
+
+.units {
+    background-color: #273549;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#digits {
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    margin: 1rem;
+    max-width: 8rem;
+}
+
+/* Hiding Arrows/Spinners */
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+/* END Hiding Arrows/Spinners */
