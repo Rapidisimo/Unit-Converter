@@ -1,9 +1,3 @@
-/*
-1 meter = 3.281 feet
-1 liter = 0.264 gallon
-1 kilogram = 2.204 pound
-*/
-
 const numberInput = document.getElementById('digits');
 const convertBtn = document.querySelector('.convert-btn')
 const resetBtn = document.querySelector('.reset-btn')
@@ -17,8 +11,9 @@ let liter = 0;
 let gallon = 0;
 let kilogram = 0;
 let pound = 0;
-reset();
+reset(); // reset everything on refresh of page
 
+// resets everything
 function reset () {
     number = 0;
     meter = 0;
