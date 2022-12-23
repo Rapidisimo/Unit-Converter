@@ -6,6 +6,7 @@
 
 const numberInput = document.getElementById('digits');
 const convertBtn = document.querySelector('.convert-btn')
+const resetBtn = document.querySelector('.reset-btn')
 const lengthMF = document.getElementById('length');
 const volume = document.getElementById('volume');
 const mass = document.getElementById('mass');
@@ -16,7 +17,18 @@ let liter = 0;
 let gallon = 0;
 let kilogram = 0;
 let pound = 0;
+reset();
 
+function reset () {
+    number = 0;
+    meter = 0;
+    feet = 0;
+    liter = 0;
+    gallon = 0;
+    kilogram = 0;
+    numberInput.value = 0;
+    length();
+}
 
 // clears the default value of "0"
 numberInput.addEventListener('click', function () {
@@ -33,6 +45,10 @@ numberInput.addEventListener('keyup', function (event) {
 // Convert Button
 convertBtn.addEventListener('click', function () {
     length();
+})
+// Reset Button
+resetBtn.addEventListener('click', function () {
+    reset()
 })
 
 
