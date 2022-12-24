@@ -1,6 +1,6 @@
 # Scrimba Solo Project - Unit-Converter
 
-## Live Version >> ➡️ [View Project](#)
+## Live Version >> ➡️ [View Project](https://rapidisimo.github.io/Unit-Converter/)
 
 ## Requirements
 1. ✅ Follow the design spec
